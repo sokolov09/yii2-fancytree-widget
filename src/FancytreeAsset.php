@@ -15,14 +15,13 @@ namespace wbraganca\fancytree;
 class FancytreeAsset extends \yii\web\AssetBundle
 {
     public $sourcePath = '@bower/fancytree';
-    public $skin = 'dist/skin-lion/ui.fancytree';
+    public $skin = 'dist/skin-bootstrap/ui.fancytree';
 
     /**
      * @inheritdoc
      */
     public $depends = [
         'yii\web\JqueryAsset',
-        'yii\jui\JuiAsset'
     ];
 
     /**
@@ -49,7 +48,7 @@ class FancytreeAsset extends \yii\web\AssetBundle
     public function init()
     {
         $this->setupAssets('css', [$this->skin]);
-        $this->setupAssets('js', ['dist/jquery.fancytree-all']);
+        $this->setupAssets('js', ['dist/jquery.fancytree-all-deps']);
         parent::init();
     }
 
