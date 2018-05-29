@@ -10,13 +10,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist wbraganca/yii2-fancytree-widget "*"
+php composer.phar require --prefer-dist sokolov09/yii2-fancytree-widget "*"
 ```
 
 or add
 
 ```
-"wbraganca/yii2-fancytree-widget": "*"
+"sokolov09/yii2-fancytree-widget": "*"
 ```
 
 to the require section of your `composer.json` file.
